@@ -1,0 +1,166 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora&display=swap');
+
+
+body {
+	background: #3E97CB;
+	background: linear-gradient(-220deg, #3E97CB 0%, whitesmoke 75%);
+}
+
+h1 {
+	font-family: 'Bebas Neue', serif;
+	font-size: 28px;
+	font-weight: 700;
+	background-color: #ABD9FF;
+	border-radius: 6px;
+	color: #1746A2;
+}
+
+p, a {
+	font-family: 'Roboto', sans-serif;
+	color:  black;
+	}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color : mediumblue;
+}
+
+img {
+	width: 120px;
+	border-radius: 50%;
+}
+
+li {
+	list-style: none;
+	font-size: 46px;
+	display: inline ;
+	margin: 12px;
+}
+
+ul {
+	padding: 0px;
+}
+
+/*Custom design*/
+
+/*classes*/
+
+.btn-blue {
+	background-color: #ABD9FF;
+	color: whitesmoke;
+	padding: 10px 24px;
+	border-radius: 6px;
+	transition: 0.5s;
+}
+
+
+.btn-blue:hover {
+	background-color: whitesmoke;
+	color: #ABD9FF;
+	transition : 0.5s;
+}
+
+.card-white {
+	background-color: whitesmoke;
+	border-radius:6px ;
+	box-shadow:10px 20px 30px rgba(30, 30, 30, 0.3);
+	margin: 30px;
+	padding: 20px;
+	text-align: center;
+}
+
+
+.container {
+	width: 700px;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+/*id*/
+
+#backgroundpassion {
+	background-image:linear-gradient(-220deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.2) 50%), url("images/f1xf.png");
+	padding: 140px;
+	border-radius: 6px;
+	margin: 30px;
+	background-size: cover;
+	background-position: center;
+}
+
+#backgroundpassion p {
+	color: white;
+}
+
+#backgroundassociation {
+	background-image:linear-gradient(-220deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.2) 50%), url("images/massa.jpeg");
+	padding: 140px;
+	border-radius: 6px;
+	margin: 30px;
+	background-size: cover;
+	background-position: center;
+}
+
+#backgroundassociation p {
+	color: white;
+}
+
+#btn-red:hover{
+	background-color: #EB4747;
+	color: whitesmoke;
+	padding: 10px 24px;
+	border-radius: 6px;
+	transition: 0.5s;
+}
+
+#btn-purple:hover{
+	background-color: #BB7BCD;
+	color: whitesmoke;
+	padding: 10px 24px;
+	border-radius: 6px;
+	transition: 0.5s;
+}
+
+
+/*media queries*/
+
+@media (max-width: 900px) {
+	.container{
+		width: 450px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 250px;
+	}
+}
+
+/*@media (max-width: 900px) {
+	#backgroundpassion{
+		width: 450px;
+	}
+@media (max-width: 500px) {
+	#backgroundpassion{
+		width: 250px;
+	}
+@media (max-width: 900px) {
+	#backgroundassociation{
+		width: 450px;
+	}
+@media (max-width: 500px) {
+	#backgroundassociation{
+		width: 250px;
+	}*/
+
+
